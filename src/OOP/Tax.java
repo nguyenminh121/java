@@ -12,10 +12,12 @@ class NguoiNopThue {
         MST = sc.nextLine();
         thunhap = Double.parseDouble(sc.nextLine());
         npt = Integer.parseInt(sc.nextLine());
+        sc.close();
     }
     public void display() {
         System.out.print(hoten + " | " + MST + " | " + thunhap);
     }
+    
 }
 
 class TinhThue extends NguoiNopThue {
@@ -47,5 +49,6 @@ public class Tax {
             tt.nhap();
             tt.display();
         }
+        sc.close();
     }
 }
