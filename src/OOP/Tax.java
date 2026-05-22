@@ -1,3 +1,4 @@
+package OOP;
 import java.util.Scanner;
 
 class NguoiNopThue {
@@ -37,7 +38,7 @@ class TinhThue extends NguoiNopThue {
     }
 }
 
-public class Main {
+public class Tax {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = Integer.parseInt(sc.nextLine());
